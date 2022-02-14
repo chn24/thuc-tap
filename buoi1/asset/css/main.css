@@ -1,0 +1,19 @@
+#input {
+
+}
+
+#input p {
+    display: inline-block;
+}
+
+#input #submit {
+    margin-top: 15px;
+}
+
+#show {
+    margin-top: 36px;
+}
+
+#show td {
+    width: 150px;
+}
