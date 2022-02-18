@@ -14,12 +14,57 @@ html {
 
 }
 
+#header1 {
+    height: 26px;
+    background-color: #222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#headermain1 {
+    display: flex;
+    flex-direction: row;
+    width: 64%;
+    margin-left: 7em;
+    align-self: center;
+}
+
+#headermain1 i {
+    color: #fff;
+    margin-right: 0.5em;
+}
+
+#headermain1 p {
+    color: #fff;
+}
+
+#headermain1 a {
+    color: #fff;
+}
+
+#headermain2 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+
+#headermain2 a:hover {
+    color: red;
+}
+
+#headermain2 a {
+    color: #fff;
+    margin: 0 1em;
+}
+
 #header {
     top: 0;
     position: sticky;
-    padding: 0 15px;
     background-color: rgb(0, 0, 0);
-    height: 70px;
+    height: 95px;
     width: 100%;
 }
 
@@ -30,6 +75,7 @@ html {
 }
 
 #nav {
+    padding: 0 15px;
     display: flex;
     height: 70px;
 }
