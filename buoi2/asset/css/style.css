@@ -408,3 +408,152 @@ html {
     text-transform: uppercase;
     font-size: 12px;
 }
+
+#content-4 {
+    width: 100%;
+    height: 200px;
+    background-image: url(http://mauweb.monamedia.net/anphuoc/wp-content/uploads/2018/01/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#content4-main {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+#content4-main .content4-item {
+    width: 25%;
+    color: #fff;
+    text-align: center;
+}
+
+#content4-main .content4-item h1 {
+    font-size: 48px;
+}
+
+#content4-main .content4-item .redline {
+    width: 100%;
+    text-align: center;
+    margin-left: 43.95%;
+}
+
+/* footer */
+
+#footer{
+}
+
+#foot1-main {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+
+#foot1-main .foot1-item {
+    align-self: center;
+    width: 15%;
+    text-align: center;
+}
+
+#foot1-main .foot1-item .foot1-img {
+    width: 75%;
+    font-size: small;
+    color: f1f1f1;
+}
+
+/* footer 2 */
+
+#foot2-main {
+    height: 375px;
+    width: 100%;
+    background-color: #222;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+#foot2-main .foot2-item {
+    align-self: center;
+    width: 20%;
+}
+
+#foot2-main .foot2-item ul {
+    margin: 1.5em 0 1.5em 0em;
+}
+
+#foot2-main .foot2-item li {
+    width: 80%;
+    color: #999;
+    margin-bottom: 0.6em;
+}
+
+#foot2-main .foot2-item i:hover {
+    color: #fff;
+}
+
+#foot2-main .foot2-item i {
+    margin-right: 0.5em;
+}
+
+#foot2-main .foot2-item a:hover {
+    color: #fff;
+}
+
+#foot2-main .foot2-item li a {
+    color: #999;
+}
+
+#foot2-main .foot2-item h3 {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#foot2-main .foot2-item p {
+    color: #999;
+    margin-top: 20px;
+}
+
+#foot2-form {
+    margin-top: 40px;
+}
+
+#foot2-form input {
+    height: 2.507em;
+    padding: 0 .75em;
+}
+
+#foot2-form button {
+    background-color: red;
+    height: 2.507em;
+    width: 3em;
+    margin-left: -4px;
+}
+
+#foot3-main {
+    height: 40px;
+    background-color: #000;
+}
+
+#foot3-main h3 {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+
+#foot3-main a:hover {
+    color: #fff;
+}
+
+#foot3-main a {
+    color: #999;
+}
