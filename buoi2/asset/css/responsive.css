@@ -1,0 +1,250 @@
+@media screen and (max-width:1023px) {
+    /* header */
+
+    #header2 {
+        justify-content: space-evenly;
+    }
+
+    #headermain2 {
+        display: none;
+    }
+
+    #headermain1 {
+        margin: 0;
+    }
+
+    #header2 .head2-item {
+        line-height: 70px;
+        width: 27%;
+    }
+
+    #header2 .head2-item .head2-img {
+        width: 100%;
+        margin: 0;
+    }
+
+    #headermain1 i {
+        display: none;
+    }
+
+    #headermain1 p {
+        font-size: 12px;
+    }
+
+    #header2 .head-hide {
+        display: none;
+    }
+
+    #head-res {
+        width: 70px;
+        align-self: center;
+        line-height: 70px;
+        display: block;
+    }
+
+    #head-res:hover {
+        background-color: #333;
+    }
+
+    #head-res:hover #resnav {
+        display: flex;
+    }
+
+    #head-res2 {
+        display: block;
+        width: 70px;
+    }
+
+    #head-res2 .res-icon,
+    #head-res .res-icon {
+        font-size: 25px;
+        color: #fff;
+        position: relative;
+    }
+
+    #resnav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        text-align: start;
+        background-color: #fff;
+        width: max-content;
+    }
+
+    #resnav .resnav-item:hover {
+        background-color: rgb(212, 212, 212);
+    }
+
+    #resnav li {
+        padding: 15px 0 15px 20px;
+    }
+
+    #resnav a {
+        font-size: 16px;
+        width: 100%;
+        color: #333;
+    }
+
+    #resnav i:hover {
+        background-color: rgb(212, 212, 212);
+    }
+
+    #resnav i {
+        color: #333;
+        font-size: 16px;
+        padding: 15px 15px 15px 20px;
+    }
+
+    /* content 1 */
+
+    #content-1 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* content 3 */
+
+    #content3-container{
+        flex-direction: column;
+    }
+
+    #content3-container .content3-item {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        width: 100%;
+    }
+
+    #content-3-main {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #content-3-main h1 {
+        margin-top: 25px;
+        font-size: 16px;
+    }
+
+    #content3-container .content3-item {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+
+@media screen and (min-width:640px) and (max-width: 1024px) {
+
+    html {
+        font-size: 13.824px;
+    }
+
+    /* content 1 */
+    
+    #cot-5 {
+        justify-content: space-evenly;
+    }
+
+    #cot-5 .item {
+        width: 30%;
+    }
+
+    #cot-5 .tablet-hide {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    html {
+        font-size: 11px;
+    }
+
+    /* slider */
+    #slider {
+        height: 250px;
+    }
+
+    #slider-main-content h1 {
+        font-size: 18px;
+    }
+
+    /* content-1 */
+
+    #content-1 h1 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    #col-3 li a {
+        font-weight: 600;
+    }
+
+    #cot-5 {
+        padding-top: 20px;
+        padding-bottom: 45px;
+    }
+
+    #cot-5 .item {
+        width: 48%;
+    }
+
+    #cot-5 .mobile-hide {
+        display: none;
+    }
+    #content1-mluc{
+        flex-direction: column;
+        margin: 0px 9px;
+    } 
+
+    #mluc-itemdoub,
+    #content1-mluc .mluc-item {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* content 2 */
+
+    #content-2-main {
+        padding-top: 60px;
+        margin-left: 0;
+    }
+
+    /* content 3 */
+
+    /* content 4 */
+
+    #content-4 {
+        height: max-content;
+    }
+
+    #content4-main {
+        padding: 50px 0;
+        height: max-content;
+        flex-direction: column;
+    }
+
+    #content4-main .content4-item {
+        width: 100%;
+    }
+    /* footer */
+
+    #foot2-main {
+        flex-wrap: wrap;
+    }
+
+    #foot2-main .foot2-item {
+        width: 45%;
+    }
+
+    #foot2-form input {
+        width: 45%;
+    }
+
+    #foot3-main h3 {
+        font-size: 14.4px;
+    }
+
+    #foot3-main img {
+        width: 4.5%;
+    }
+}
+

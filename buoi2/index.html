@@ -1,35 +1,57 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
     <link rel="stylesheet" href="./asset/fonts/themify-icons/themify-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Buoi2</title>
 </head>
 <body>
     <div id="main">
+        <div id="header1">
+            <div id="headermain1">
+                <i class="ti-facebook"></i>
+                <i class="ti-google" style="margin-right: 2em;"></i>
+                <p>Hotline: <a href="#">0126 922 0162</a></p>
+            </div>
+
+            <div id="headermain2">
+                <a href="#">Chăm sóc khách hàng</a>
+                <a href="#">Tin tức</a>
+                <a href="#"> Tuyển dụng</a>
+            </div>
+        </div>
         <div id="header">
-            <div id="header1">
-                <div id="headermain1">
-                    <i class="ti-facebook"></i>
-                    <i class="ti-google" style="margin-right: 2em;"></i>
-                    <p>Hotline: <a href="#">0126 922 0162</a></p>
+            <div id="header2">
+
+                <div id="head-res" class="head2-item">
+                    <i class="res-icon ti-menu">
+                        <ul id="resnav">
+                            <li class="resnav-item"><a href="#">Trang chủ</a></li>
+                            <li class="resnav-item"><a href="#">Giới thiệu</a></li>
+                            <li class="resnav-item"><a href="#">Khách hàng doanh nghiệp</a></li>
+                            <li class="resnav-item"><a href="#">Sản phẩm</a></li>
+                            <li class="resnav-item"><a href="#">Hệ thống cửa hàng</a></li>
+                            <li class="resnav-item"><a href="#">Liên hệ</a></li>
+                            <li class="resnav-item"><a href="#">Đăng nhập</a></li>
+                            <li class="resnav-item"><a href="#">Newsletter</a></li>
+                            <li class=>
+                                <i class="ti-facebook"></i>
+                                <i class="ti-google"></i>
+                            </li>
+                        </ul>
+                    </i>
                 </div>
 
-                <div id="headermain2">
-                    <a href="#">Chăm sóc khách hàng</a>
-                    <a href="#">Tin tức</a>
-                    <a href="#"> Tuyển dụng</a>
-                </div>
-            </div>
-            
-            <div id="header2">
                 <div class="head2-item">
                     <div class="head2-img">
                         <img src="http://mauweb.monamedia.net/anphuoc/wp-content/uploads/2018/01/mona-logo-anphuoc.png" alt="">
                     </div>
                 </div>
 
-                <div class="head2-item">
+                <div class="head2-item head-hide">
                     <ul id="nav-contain">
                         <li class="nav-item" style="margin-left: 0;">
                             <a href="#">Trang chủ</a>
@@ -121,10 +143,27 @@
                             <a href="#">Liên Hệ</a>
                             <div class="header-redline"></div>
                         </li>
-                        <li class="nav-item"> <i class="ti-search"></i></li>
-                        <li class="nav-item" style="margin-right: 0;"><i class="ti-bag"></i></li>
+                        <li class="nav-item">
+                             <i class="ti-search"></i>
+                             <div class="header-redline"></div>
+                             <div class="subnav" id="subnav-4" style=" margin-top: 128px; margin-left: -135px;">
+                                <input type="text" placeholder="Tìm kiếm..." >
+                                <button type="submit"><i class="ti-search"></i></button>
+                             </div>
+                        </li>
+                        <li class="nav-item" style="margin-right: 0;">
+                            <i class="ti-bag"></i>
+                            <div class="header-redline"></div>
+                        </li>
                     </ul>
                 </div>
+
+                <div id="head-res2" class="head2-item">
+                    <i class="res-icon ti-bag">
+
+                    </i>
+                </div>
+
             </div>
 
         </div>
@@ -132,28 +171,37 @@
         <div id="slider">
             <div id="sub-slider">
                 <div id="slider-content">
-                <div id="slider-main-content">
-                    <a href="#" style="color: #666; background-color: #fff; font-size: 10px;">Bộ sưu tập</a>
-                    <h1>mona media - 2018</h1>
-                    <a href="#" style="color: #fff; background-color: red;">xem thêm</a>
+                    <div id="slider-main-content">
+                        <a href="#" style="color: #666; background-color: #fff; font-size: 0.7em;">Bộ sưu tập</a>
+                        <h1>mona media - 2018</h1>
+                        <a href="#" style="color: #fff; background-color: red;">xem thêm</a>
+                    </div>
                 </div>
-            </div>
             </div>
             
         </div>
 
         <div id="content">
-            <div id="content-1">
-                <h1>Sản phẩm nổi bật</h1>
-
+            <div id="content-1"> 
+                <h1 data-aos="fade-right" data-aos-once="true" data-aos-duration="1000" data-aos-easing="ease-in-quad">Sản phẩm nổi bật</h1>
+                <div class="redline" style="margin-top:0.5em;margin-bottom:2.5em;max-width:50px;height:2px;background-color:rgb(237, 28, 36);"></div>
                 <div id="content-1-main">
-                    <ul id="col-3">
-                        <li><a href="#">Trang phục nam</a></li>
-                        <li><a href="#">Trang phục nữ</a></li>
-                        <li><a href="#">Pierre Cardin</a></li>
+                    <ul id="col-3" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000" data-aos-easing="ease-in-quad">
+                        <li>
+                            <a href="#">Trang phục nam</a>
+                            <div class="black-line"></div>
+                        </li>
+                        <li>
+                            <a href="#">Trang phục nữ</a>
+                            <div class="black-line"></div>
+                        </li>
+                        <li>
+                            <a href="#">Pierre Cardin</a>
+                            <div class="black-line"></div>
+                        </li>
                     </ul>
 
-                    <div id="col-5">
+                    <div id="cot-5" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000" data-aos-easing="ease-in-quad">
                         <div class="item">
                             <a href="#">
                                 <img src="https://bit.ly/3LHOBki" alt="">
@@ -182,7 +230,7 @@
                             </div>
                         </div>
 
-                        <div class="item">
+                        <div class="item mobile-hide">
                             <a href="#">
                                 <img src="https://bit.ly/3LHOBki" alt="">
                             </a>
@@ -196,7 +244,7 @@
                             </div>
                         </div>
 
-                        <div class="item">
+                        <div class="item tablet-hide mobile-hide">
                             <a href="#">
                                 <img src="https://bit.ly/3LHOBki" alt="">
                             </a>
@@ -210,7 +258,7 @@
                             </div>
                         </div>
 
-                        <div class="item">
+                        <div class="item tablet-hide mobile-hide">
                             <a href="#">
                                 <img src="https://bit.ly/3LHOBki" alt="">
                             </a>
@@ -226,30 +274,38 @@
                     </div>
 
                     <div id="content1-mluc">
-                        <div class="mluc-item" style="background-image: url(https://bit.ly/3sLyZUu) !important;">
-                            <h1>
-                                <a href="https://bit.ly/3uR3riG" style="color: #fff;">Trang phục nam</a>
-                            </h1>
-                        </div>
-
-                        <div class="mluc-item">
-                            <h1>
-                                <a href="https://bit.ly/355AtAz" style="color: #fff;">Trang phục nữ</a>
-                            </h1>
-                        </div>
-
-                        <div id="mluc-itemdoub">
-                            <div class="mluc-sub" style="margin-bottom: 5%;">
-                                <h1>
-                                    <a href="https://bit.ly/3uXpWTc" style="color: #fff;">PIERRE CARDING</a>
-                                </h1>
+                        <div class="mluc-item" data-aos="fade-right" data-aos-once="true" data-aos-delay="0" data-aos-duration="1000" data-aos-easing="ease-in-quad">
+                            <div class="submluc-item" style="background-image: url(http://mauweb.monamedia.net/anphuoc/wp-content/uploads/2018/01/cm1.jpg);">
+                                <div class="heading">
+                                    <h3>Trang phục nam</h3>
+                                     <div class="white-line" style="margin-left: 6%;margin-top: 20%;max-width:50px;height:2px;background-color:#fff;"></div>
+                                </div>
                             </div>
-
-                            <div class="mluc-sub" style="background-image: url(https://bit.ly/3Id7oSN); margin-top: 5%;">
-                                <h1>
-                                    <a href="https://bit.ly/3I4zqji" style="color: #fff;">
-                                        PHỤ KIỆN – PHIẾU QUÀ TẶNG</a>
-                                </h1>
+                        </div>
+                        <div class="mluc-item" data-aos="fade-right" data-aos-once="true" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-quad">
+                            <div class="submluc-item" style="background-image: url(http://mauweb.monamedia.net/anphuoc/wp-content/uploads/2018/01/cm3.jpg);">
+                                <div class="heading">
+                                    <h3>Trang phục nữ</h3>
+                                     <div class="white-line" style="margin-left: 6%;margin-top: 20%;max-width:50px;height:2px;background-color:#fff;"></div>
+                                </div>    
+                            </div>
+                        </div>
+                        <div id="mlucdoub" class="mluc-item" data-aos="fade-left" data-aos-once="true" data-aos-delay="400" data-aos-duration="1000" data-aos-easing="ease-in-quad">
+                            <div class="subdoub">
+                                <div class="submluc-item" style="background-image: url(http://mauweb.monamedia.net/anphuoc/wp-content/uploads/2018/01/banner-pierre-cardin.jpg);">
+                                    <div class="heading">
+                                        <h3>Pierre Cardin</h3>
+                                         <div class="white-line" style="margin-left: 6%;margin-top: 20%;max-width:50px;height:2px;background-color:#fff;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="subdoub">
+                                <div class="submluc-item" style="background-image: url(http://mauweb.monamedia.net/anphuoc/wp-content/uploads/2018/01/cm4crop.jpg);">
+                                    <div class="heading">
+                                        <h3>Phụ kiệ-Phiếu quà tặng</h3>
+                                         <div class="white-line" style="margin-left: 6%;margin-top: 20%;max-width:50px;height:2px;background-color:#fff;"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -257,8 +313,9 @@
             </div>
 
             <div id="content-2">
-                <div id="content-2-main">
+                <div id="content-2-main" data-aos="fade-left" data-aos-once="true" data-aos-duration="1000" data-aos-easing="ease-in-quad">
                     <h1>Công ty</h1>
+                    <div class="redline" style="margin-top:0.5em;margin-bottom:2.5em;max-width:50px;height:2px;background-color:rgb(237, 28, 36);"></div>
                     <strong>CÔNG TY TNHH MAY THÊU GIÀY</strong>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     <a href="#">hiểu thêm về chúng tôi</a>
@@ -266,8 +323,9 @@
             </div>
 
             <div id="content-3">
-                <div id="content-3-main">
+                <div id="content-3-main" data-aos="fade-right" data-aos-once="true" data-aos-duration="1000" data-aos-easing="ease-in-quad">
                     <h1>tin tức-sự kiện</h1>
+                    <div class="redline" style="margin-top:0.5em;margin-bottom:2.5em;max-width:50px;height:1.5px;background-color:rgb(237, 28, 36);"></div>
                     <div id="content3-container">
                         <div class="content3-item">
                             <div class="content3-item-img">
@@ -310,19 +368,19 @@
 
             <div id="content-4">
                 <div id="content4-main">
-                    <div class="content4-item">
+                    <div class="content4-item" data-aos-once="true" data-aos="zoom-in" data-aos-delay="0" data-aos-duration="1000" data-aos-easing="ease-in-quad">
                         <h1>853</h1>
                         <div class="redline" style="margin-top:0.5em;margin-bottom:0.5em;max-width:50px;height:2px;background-color:rgb(237, 28, 36);"></div>
                         <p>Cửa hàng</p>
                     </div>
 
-                    <div class="content4-item">
+                    <div class="content4-item" data-aos-once="true" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-quad">
                         <h1>1000</h1>
                         <div class="redline" style="margin-top:0.5em;margin-bottom:0.5em;max-width:50px;height:2px;background-color:rgb(237, 28, 36);"></div>
                         <p>Khách hàng doanh nghiệp</p>
                     </div>
 
-                    <div class="content4-item">
+                    <div class="content4-item" data-aos-once="true" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000" data-aos-easing="ease-in-quad">
                         <h1>15</h1>
                         <div class="redline" style="margin-top:0.5em;margin-bottom:0.5em;max-width:50px;height:2px;background-color:rgb(237, 28, 36);"></div>
                         <p>Triệu sản phẩm tiêu năm 2016</p>
@@ -334,23 +392,23 @@
         <div id="footer">
             <div id="foot-1">
                 <div id="foot1-main">
-                    <div class="foot1-item">
+                    <div class="foot1-item" data-aos="fade-up" data-aos-once="true" data-aos-delay="0" data-aos-duration="1000" data-aos-easing="ease-in-quad">
                         <img src="http://mauweb.monamedia.net/anphuoc/wp-content/uploads/2018/01/1.png" alt="" class="foot1-img">
                     </div>
 
-                    <div class="foot1-item">
+                    <div class="foot1-item" data-aos="fade-up" data-aos-once="true" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-in-quad">
                         <img src="http://mauweb.monamedia.net/anphuoc/wp-content/uploads/2018/01/2.png" alt="" class="foot1-img">
                     </div>
 
-                    <div class="foot1-item">
+                    <div class="foot1-item" data-aos="fade-up" data-aos-once="true" data-aos-delay="400" data-aos-duration="1000" data-aos-easing="ease-in-quad">
                         <img src="http://mauweb.monamedia.net/anphuoc/wp-content/uploads/2018/01/3.png" alt="" class="foot1-img" style="width: 31%;">
                     </div>
 
-                    <div class="foot1-item">
+                    <div class="foot1-item" data-aos="fade-up" data-aos-once="true" data-aos-delay="600" data-aos-duration="1000" data-aos-easing="ease-in-quad">
                         <img src="http://mauweb.monamedia.net/anphuoc/wp-content/uploads/2018/01/4.png" alt="" class="foot1-img">
                     </div>
 
-                    <div class="foot1-item">
+                    <div class="foot1-item" data-aos="fade-up" data-aos-once="true" data-aos-delay="800" data-aos-duration="1000" data-aos-easing="ease-in-quad">
                         <img src="http://mauweb.monamedia.net/anphuoc/wp-content/uploads/2018/01/5.png" alt="" class="foot1-img">
                     </div>
                 </div>
@@ -383,7 +441,7 @@
                     </div>
 
                     <div class="foot2-item">
-                        <h3 style="margin-bottom: 50px;">Hỗ trợ khách hàng</h3>
+                        <h3>Hỗ trợ khách hàng</h3>
                         <ul>
                             <li> <a href="#">Phiếu quà tặng</a> </li>
                             <li> <a href="#">Hướng dẫn chọn size</a> </li>
@@ -409,5 +467,9 @@
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
