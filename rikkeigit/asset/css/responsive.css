@@ -1,0 +1,164 @@
+@media screen and (min-width: 640px) and (max-width:1023px) {
+    #nav span {
+        display: none;
+    }
+
+    /* content 2-1*/
+
+    #con2-1nav {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    #con2-1nav li {
+        width: 48%;
+        margin: 4px;
+    }
+
+    #con2-1nav .height1 {
+        height: 50.4px;
+    }
+
+    /* content2-2 */
+
+    #con2-1search {
+        grid-template-columns: 100%;
+    }
+
+    #con2-1bnav {
+        margin-left: 0;
+        margin-top: 10px;
+        justify-content: flex-start;
+    }
+
+    #con2-1bnav li {
+        margin-right: 16px;
+    }
+
+    #subnav-1 {
+        margin-left:-22%
+    }
+    #subnav-2 {
+        margin-left:-15%
+    }
+    #subnav-3 {
+        margin-left:-22%
+    }
+
+    /* footer */
+    #footer-main {
+        flex-direction: column-reverse;
+    }
+
+    #foot-nav1 {
+        margin-top: 16px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #foot-nav1 li {
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    #foot-nav2 {
+        width: 100%;
+    }
+}
+
+/* mobile */
+
+@media screen and (max-width:639px) {
+    #nav {
+        justify-content: center;
+    }
+
+    .not-hide {
+        display: block !important;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    /* content1 */
+
+    #content-1-main {
+        height: 262px;
+    }
+
+    #con1-profile {
+        height: 215px;
+        padding-top: 14px;
+    }
+
+    #con1-location {
+        flex-direction: column !important;
+    }
+
+    #con1-location > p,
+    #verify {
+        margin: 8px 0;
+    }
+
+    /* content 2 */
+
+    #content2-main {
+        grid-template-columns: 100%;
+    }
+
+    #con2-1nav {
+        flex-direction: column;
+    }
+
+    #con2-1nav li {
+        width: 98%;
+        margin: 4px;
+    }
+
+    /* content2-2 */
+
+    #con2-1search {
+        grid-template-columns: 100%;
+    }
+
+    #con2-1bnav {
+        margin-left: 0;
+        margin-top: 10px;
+        justify-content: flex-start;
+    }
+
+    #con2-1bnav li {
+        margin-right: 5px;
+    }
+
+    #con2-1bnav li p {
+        font-size: 14px;
+    }
+
+    /* footer */
+
+    #footer {
+        margin-top: 175px;
+    }
+
+    #footer-main {
+        flex-direction: column-reverse;
+    }
+
+    #foot-nav1 {
+        margin-top: 16px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #foot-nav1 li {
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    #foot-nav2 {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
